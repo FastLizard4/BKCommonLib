@@ -37,8 +37,8 @@ class CommonPacketMonitor implements PacketMonitor {
 			// Clear all known chunks
 			meta.clearVisibleChunks();
 		} else {
-			System.out.println(packet);
-			Thread.dumpStack();
+//			System.out.println(packet);
+//			Thread.dumpStack();
 		}
 	}
 }
